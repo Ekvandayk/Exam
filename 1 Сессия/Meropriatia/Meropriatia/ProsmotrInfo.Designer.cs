@@ -1,0 +1,152 @@
+﻿namespace Meropriatia
+{
+    partial class ProsmotrInfo
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProsmotrInfo));
+            this.juri_label = new System.Windows.Forms.Label();
+            this.fio_label = new System.Windows.Forms.Label();
+            this.meropriatie_label = new System.Windows.Forms.Label();
+            this.familia_comboBox = new System.Windows.Forms.ComboBox();
+            this.meropriatie_comboBox = new System.Windows.Forms.ComboBox();
+            this.poisk_button = new System.Windows.Forms.Button();
+            this.spisok_dataGridView = new System.Windows.Forms.DataGridView();
+            this.kolichestvo_label = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.spisok_dataGridView)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // juri_label
+            // 
+            this.juri_label.AutoSize = true;
+            this.juri_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.juri_label.Location = new System.Drawing.Point(164, 19);
+            this.juri_label.Name = "juri_label";
+            this.juri_label.Size = new System.Drawing.Size(448, 46);
+            this.juri_label.TabIndex = 2;
+            this.juri_label.Text = "ЖЮРИ/МОДЕРАТОРЫ";
+            // 
+            // fio_label
+            // 
+            this.fio_label.AutoSize = true;
+            this.fio_label.Location = new System.Drawing.Point(58, 113);
+            this.fio_label.Name = "fio_label";
+            this.fio_label.Size = new System.Drawing.Size(69, 16);
+            this.fio_label.TabIndex = 3;
+            this.fio_label.Text = "Фамилия:";
+            // 
+            // meropriatie_label
+            // 
+            this.meropriatie_label.AutoSize = true;
+            this.meropriatie_label.Location = new System.Drawing.Point(28, 157);
+            this.meropriatie_label.Name = "meropriatie_label";
+            this.meropriatie_label.Size = new System.Drawing.Size(99, 16);
+            this.meropriatie_label.TabIndex = 4;
+            this.meropriatie_label.Text = "Мероприятие:";
+            // 
+            // familia_comboBox
+            // 
+            this.familia_comboBox.FormattingEnabled = true;
+            this.familia_comboBox.Location = new System.Drawing.Point(133, 110);
+            this.familia_comboBox.Name = "familia_comboBox";
+            this.familia_comboBox.Size = new System.Drawing.Size(229, 24);
+            this.familia_comboBox.TabIndex = 1;
+            // 
+            // meropriatie_comboBox
+            // 
+            this.meropriatie_comboBox.FormattingEnabled = true;
+            this.meropriatie_comboBox.Location = new System.Drawing.Point(133, 154);
+            this.meropriatie_comboBox.Name = "meropriatie_comboBox";
+            this.meropriatie_comboBox.Size = new System.Drawing.Size(229, 24);
+            this.meropriatie_comboBox.TabIndex = 2;
+            // 
+            // poisk_button
+            // 
+            this.poisk_button.BackColor = System.Drawing.Color.Blue;
+            this.poisk_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.poisk_button.Location = new System.Drawing.Point(384, 148);
+            this.poisk_button.Name = "poisk_button";
+            this.poisk_button.Size = new System.Drawing.Size(124, 35);
+            this.poisk_button.TabIndex = 3;
+            this.poisk_button.Text = "Поиск";
+            this.poisk_button.UseVisualStyleBackColor = false;
+            // 
+            // spisok_dataGridView
+            // 
+            this.spisok_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.spisok_dataGridView.Location = new System.Drawing.Point(21, 201);
+            this.spisok_dataGridView.Name = "spisok_dataGridView";
+            this.spisok_dataGridView.RowHeadersWidth = 51;
+            this.spisok_dataGridView.RowTemplate.Height = 24;
+            this.spisok_dataGridView.Size = new System.Drawing.Size(737, 178);
+            this.spisok_dataGridView.TabIndex = 9;
+            // 
+            // kolichestvo_label
+            // 
+            this.kolichestvo_label.AutoSize = true;
+            this.kolichestvo_label.Location = new System.Drawing.Point(28, 410);
+            this.kolichestvo_label.Name = "kolichestvo_label";
+            this.kolichestvo_label.Size = new System.Drawing.Size(88, 16);
+            this.kolichestvo_label.TabIndex = 10;
+            this.kolichestvo_label.Text = "Количество:";
+            // 
+            // ProsmotrInfo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(780, 450);
+            this.Controls.Add(this.kolichestvo_label);
+            this.Controls.Add(this.spisok_dataGridView);
+            this.Controls.Add(this.poisk_button);
+            this.Controls.Add(this.meropriatie_comboBox);
+            this.Controls.Add(this.familia_comboBox);
+            this.Controls.Add(this.meropriatie_label);
+            this.Controls.Add(this.fio_label);
+            this.Controls.Add(this.juri_label);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(798, 497);
+            this.MinimumSize = new System.Drawing.Size(798, 497);
+            this.Name = "ProsmotrInfo";
+            this.Text = "Жюри и модераторы";
+            ((System.ComponentModel.ISupportInitialize)(this.spisok_dataGridView)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label juri_label;
+        private System.Windows.Forms.Label fio_label;
+        private System.Windows.Forms.Label meropriatie_label;
+        private System.Windows.Forms.ComboBox familia_comboBox;
+        private System.Windows.Forms.ComboBox meropriatie_comboBox;
+        private System.Windows.Forms.Button poisk_button;
+        private System.Windows.Forms.DataGridView spisok_dataGridView;
+        private System.Windows.Forms.Label kolichestvo_label;
+    }
+}

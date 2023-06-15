@@ -28,5 +28,29 @@ namespace Meropriatia
             Form Profile = new Profile();
             Profile.ShowDialog();
         }
+
+        private void juri_button_Click(object sender, EventArgs e)
+        {
+            Form prosmotrinfo = new ProsmotrInfo();
+            prosmotrinfo.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form regJuri = new RegistrJuri();
+            regJuri.ShowDialog();
+        }
+
+        private void moder_button_Click(object sender, EventArgs e)
+        {
+            Form moderator = new Moderator();
+            moderator.Show();
+        }
+
+        private void member_button_Click(object sender, EventArgs e)
+        {
+            Form viewMembers = new ViewMembers();
+            viewMembers.Show();
+        }
     }
 }

@@ -16,3 +16,27 @@ C:\Users\alexk\OneDrive\Рабочий стол\Экзамен\1\09_1.4-2022_6 �
 C:\Users\alexk\OneDrive\Рабочий стол\Экзамен\1\09_1.4-2022_6 — копия\Вариант 6\Вариант 6\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.AddMeropriatie.resources
 C:\Users\alexk\OneDrive\Рабочий стол\Экзамен\1\09_1.4-2022_6 — копия\Вариант 6\Вариант 6\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.Desk.resources
 C:\Users\alexk\OneDrive\Рабочий стол\Экзамен\1\09_1.4-2022_6 — копия\Вариант 6\Вариант 6\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.Meropriatia.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\bin\Debug\Meropriatia.exe.config
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\bin\Debug\Meropriatia.exe
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\bin\Debug\Meropriatia.pdb
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.csproj.AssemblyReference.cache
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.AddMeropriatie.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.Desk.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.InfoMeropriatia.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.LoginForm.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.MainMenu.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.Meropriatia.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.Organizator.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.Profile.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.Properties.Resources.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.csproj.GenerateResource.cache
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.csproj.CoreCompileInputs.cache
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.exe
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.pdb
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.ProsmotrInfo.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.RegistrJuri.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.AddMembers.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.Moderator.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.MyActivity.resources
+C:\Users\alexk\OneDrive\Рабочий стол\Решения\1 Сессия\Meropriatia\Meropriatia\obj\Debug\Meropriatia.ViewMembers.resources

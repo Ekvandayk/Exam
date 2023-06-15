@@ -36,6 +36,8 @@
             this.meropriatia_button = new System.Windows.Forms.Button();
             this.member_button = new System.Windows.Forms.Button();
             this.juri_button = new System.Windows.Forms.Button();
+            this.reg_button = new System.Windows.Forms.Button();
+            this.moder_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.photo_pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.myProfile_pictureBox)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +46,7 @@
             // 
             this.organizator_label.AutoSize = true;
             this.organizator_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.organizator_label.Location = new System.Drawing.Point(129, 20);
+            this.organizator_label.Location = new System.Drawing.Point(240, 19);
             this.organizator_label.Name = "organizator_label";
             this.organizator_label.Size = new System.Drawing.Size(400, 46);
             this.organizator_label.TabIndex = 1;
@@ -86,7 +88,7 @@
             // 
             this.meropriatia_button.BackColor = System.Drawing.Color.Blue;
             this.meropriatia_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.meropriatia_button.Location = new System.Drawing.Point(331, 165);
+            this.meropriatia_button.Location = new System.Drawing.Point(283, 162);
             this.meropriatia_button.Name = "meropriatia_button";
             this.meropriatia_button.Size = new System.Drawing.Size(264, 79);
             this.meropriatia_button.TabIndex = 5;
@@ -98,29 +100,57 @@
             // 
             this.member_button.BackColor = System.Drawing.Color.Blue;
             this.member_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.member_button.Location = new System.Drawing.Point(331, 250);
+            this.member_button.Location = new System.Drawing.Point(283, 247);
             this.member_button.Name = "member_button";
             this.member_button.Size = new System.Drawing.Size(264, 79);
             this.member_button.TabIndex = 6;
             this.member_button.Text = "Участники";
             this.member_button.UseVisualStyleBackColor = false;
+            this.member_button.Click += new System.EventHandler(this.member_button_Click);
             // 
             // juri_button
             // 
             this.juri_button.BackColor = System.Drawing.Color.Blue;
             this.juri_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.juri_button.Location = new System.Drawing.Point(331, 338);
+            this.juri_button.Location = new System.Drawing.Point(283, 335);
             this.juri_button.Name = "juri_button";
             this.juri_button.Size = new System.Drawing.Size(264, 79);
             this.juri_button.TabIndex = 7;
             this.juri_button.Text = "Жюри";
             this.juri_button.UseVisualStyleBackColor = false;
+            this.juri_button.Click += new System.EventHandler(this.juri_button_Click);
+            // 
+            // reg_button
+            // 
+            this.reg_button.BackColor = System.Drawing.Color.Blue;
+            this.reg_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.reg_button.Location = new System.Drawing.Point(553, 335);
+            this.reg_button.Name = "reg_button";
+            this.reg_button.Size = new System.Drawing.Size(181, 79);
+            this.reg_button.TabIndex = 8;
+            this.reg_button.Text = "Регистрация жюри/модератора";
+            this.reg_button.UseVisualStyleBackColor = false;
+            this.reg_button.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // moder_button
+            // 
+            this.moder_button.BackColor = System.Drawing.Color.Blue;
+            this.moder_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.moder_button.Location = new System.Drawing.Point(740, 338);
+            this.moder_button.Name = "moder_button";
+            this.moder_button.Size = new System.Drawing.Size(131, 79);
+            this.moder_button.TabIndex = 9;
+            this.moder_button.Text = "Окно модератора\r\n";
+            this.moder_button.UseVisualStyleBackColor = false;
+            this.moder_button.Click += new System.EventHandler(this.moder_button_Click);
             // 
             // Organizator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(897, 432);
+            this.Controls.Add(this.moder_button);
+            this.Controls.Add(this.reg_button);
             this.Controls.Add(this.juri_button);
             this.Controls.Add(this.member_button);
             this.Controls.Add(this.meropriatia_button);
@@ -149,5 +179,7 @@
         private System.Windows.Forms.Button meropriatia_button;
         private System.Windows.Forms.Button member_button;
         private System.Windows.Forms.Button juri_button;
+        private System.Windows.Forms.Button reg_button;
+        private System.Windows.Forms.Button moder_button;
     }
 }

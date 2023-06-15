@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMembers.Designer.cs">
+      <DependentUpon>AddMembers.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddMeropriatie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,18 @@
     <Compile Include="Meropriatia.Designer.cs">
       <DependentUpon>Meropriatia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Moderator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moderator.Designer.cs">
+      <DependentUpon>Moderator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyActivity.Designer.cs">
+      <DependentUpon>MyActivity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Organizator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +114,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProsmotrInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProsmotrInfo.Designer.cs">
+      <DependentUpon>ProsmotrInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrJuri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrJuri.Designer.cs">
+      <DependentUpon>RegistrJuri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMembers.Designer.cs">
+      <DependentUpon>ViewMembers.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddMembers.resx">
+      <DependentUpon>AddMembers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddMeropriatie.resx">
       <DependentUpon>AddMeropriatie.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +153,12 @@
     <EmbeddedResource Include="Meropriatia.resx">
       <DependentUpon>Meropriatia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Moderator.resx">
+      <DependentUpon>Moderator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyActivity.resx">
+      <DependentUpon>MyActivity.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Organizator.resx">
       <DependentUpon>Organizator.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +174,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ProsmotrInfo.resx">
+      <DependentUpon>ProsmotrInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrJuri.resx">
+      <DependentUpon>RegistrJuri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMembers.resx">
+      <DependentUpon>ViewMembers.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

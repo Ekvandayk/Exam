@@ -80,7 +80,7 @@
             this.MaximumSize = new System.Drawing.Size(609, 415);
             this.MinimumSize = new System.Drawing.Size(609, 415);
             this.Name = "MainMenu";
-            this.Text = "Meropriatia";
+            this.Text = "Мероприятие";
             ((System.ComponentModel.ISupportInitialize)(this.meropriatia_dataGridView)).EndInit();
             this.ResumeLayout(false);
 

@@ -100,7 +100,7 @@
             this.MaximumSize = new System.Drawing.Size(796, 511);
             this.MinimumSize = new System.Drawing.Size(796, 511);
             this.Name = "Desk";
-            this.Text = "Desk";
+            this.Text = "Доска";
             ((System.ComponentModel.ISupportInitialize)(this.activity_pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

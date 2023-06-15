@@ -37,7 +37,7 @@
             this.CountryN_label = new System.Windows.Forms.Label();
             this.telephoneN_label = new System.Windows.Forms.Label();
             this.emailN_label = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.foto_pictureBox = new System.Windows.Forms.PictureBox();
             this.swapPass_checkBox = new System.Windows.Forms.CheckBox();
             this.password_label = new System.Windows.Forms.Label();
             this.twoPassword_label = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@
             this.viewPass_checkBox = new System.Windows.Forms.CheckBox();
             this.ok_button = new System.Windows.Forms.Button();
             this.cancel_button = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.foto_pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // profile_label
@@ -122,15 +122,15 @@
             this.emailN_label.TabIndex = 9;
             this.emailN_label.Text = "Email";
             // 
-            // pictureBox1
+            // foto_pictureBox
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(598, 98);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 158);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
+            this.foto_pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("foto_pictureBox.Image")));
+            this.foto_pictureBox.Location = new System.Drawing.Point(598, 98);
+            this.foto_pictureBox.Name = "foto_pictureBox";
+            this.foto_pictureBox.Size = new System.Drawing.Size(139, 158);
+            this.foto_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.foto_pictureBox.TabIndex = 10;
+            this.foto_pictureBox.TabStop = false;
             // 
             // swapPass_checkBox
             // 
@@ -141,6 +141,7 @@
             this.swapPass_checkBox.TabIndex = 11;
             this.swapPass_checkBox.Text = "Смена пароля";
             this.swapPass_checkBox.UseVisualStyleBackColor = true;
+            this.swapPass_checkBox.CheckedChanged += new System.EventHandler(this.swapPass_checkBox_CheckedChanged);
             // 
             // password_label
             // 
@@ -183,6 +184,7 @@
             this.viewPass_checkBox.TabIndex = 16;
             this.viewPass_checkBox.Text = "Видимый пароль";
             this.viewPass_checkBox.UseVisualStyleBackColor = true;
+            this.viewPass_checkBox.CheckedChanged += new System.EventHandler(this.viewPass_checkBox_CheckedChanged);
             // 
             // ok_button
             // 
@@ -221,7 +223,7 @@
             this.Controls.Add(this.twoPassword_label);
             this.Controls.Add(this.password_label);
             this.Controls.Add(this.swapPass_checkBox);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.foto_pictureBox);
             this.Controls.Add(this.emailN_label);
             this.Controls.Add(this.telephoneN_label);
             this.Controls.Add(this.CountryN_label);
@@ -236,7 +238,7 @@
             this.Name = "Profile";
             this.Text = "Мой профиль";
             this.Load += new System.EventHandler(this.Profile_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.foto_pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,7 +254,7 @@
         private System.Windows.Forms.Label CountryN_label;
         private System.Windows.Forms.Label telephoneN_label;
         private System.Windows.Forms.Label emailN_label;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox foto_pictureBox;
         private System.Windows.Forms.CheckBox swapPass_checkBox;
         private System.Windows.Forms.Label password_label;
         private System.Windows.Forms.Label twoPassword_label;
